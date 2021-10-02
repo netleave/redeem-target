@@ -8,9 +8,9 @@ do
     then
         if ([$M -gt 58] && !([$S -eq 0])) || ([$M -eq 0] && [$S -eq 0])
         then
-            (date +%d.%m.%y - %H:%M:%S); ('/home/maryhung2023/klookredeem_mary.sh' &); (sleep .04);
+            (date +%d.%m.%y-%H:%M:%S); ('/home/maryhung2023/klookredeem_mary.sh' &); (sleep .04);
         else
-            (date +%d.%m.%y - %H:%M:%S); ('/home/maryhung2023/klookredeem_mary.sh');
+            (date +%d.%m.%y-%H:%M:%S); ('/home/maryhung2023/klookredeem_mary.sh');
         fi
     fi
 done
