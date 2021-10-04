@@ -1,2 +1,2 @@
 # redeem target
-redeem target
+recursive redemption
